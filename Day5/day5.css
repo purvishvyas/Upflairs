@@ -1,0 +1,35 @@
+/* type selector */
+body{
+    color: cadetblue;
+    background-color: rgb(255, 196, 254); 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* class selector */
+.first{
+    color: black;
+}
+.large{
+    font-size: 30px;
+}
+
+/* ID selector */
+#eklist {
+    background-color: rgb(122, 42, 165);
+}
+/* attribute selector */
+input[type="text"]{
+background-color: chartreuse;
+color: rgb(255, 255, 255);}
+input[type="email"]{
+    background-color: chartreuse;
+color: rgb(255, 255, 255);}
+
+    /* pseudo selector */
+    .first::hover{
+        color: white;
+    }
+/* universal selector */
+*{
+    margin: 2%;
+}

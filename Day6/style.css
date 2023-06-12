@@ -1,0 +1,50 @@
+body{
+   background-color: rgb(85, 85, 218);
+}
+.heading{
+    background-color: crimson;
+}
+.para{
+    background-color: rgba(0,100,0,0.5);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+/* Measurment - Dimension,margin,padding*/
+.box{
+    background-color: burlywood;
+    width: 200px;
+    height: 100px;
+    font-size: 2.5em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* 1em=16px */
+}
+.heading{
+    width: 40%;
+    height: 50px;
+   /* margin: 50px 300px 30px 50px; /*top right bottom left*/
+   /*margin: 100px 200px; /* vertical horizontal*/
+   /*margin: 30px; /*all side same */
+   /*margin-left: 50px;*/
+
+   /*padding: 5%; /*internal margin*/
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+}
+img{
+    width: 170px;
+    height: 170px;
+}
+
+/* right click and select inspect, you can see your html code there and can do temporary changes */
+ /* Display and position */
+ h3{
+    display: inline;
+ }
+ span{
+    width: 80px;
+ }
